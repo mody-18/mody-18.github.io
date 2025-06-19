@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modestas Riabovas - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <p>Hello</p>
-    
+  <div class="container">
+    <header>
+      <img src="assets/profile.jpg" alt="Modestas Riabovas" class="profile-pic" />
+      <h1>Modestas Riabovas</h1>
+      <p class="subtitle">Full Stack Developer</p>
+      <p class="bio">3rd Year University of Leicester Student</p>
+      <div class="socials">
+        <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+        <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">Instagram</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a full stack developer with a passion for building elegant web
+        solutions. Currently in my third year at the University of Leicester,
+        I'm focused on applying my technical skills to solve real-world problems
+        through clean code and thoughtful design.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Description of the project, what technologies were used, and what you accomplished.</p>
+      </div>
+      <!-- Add more project blocks if needed -->
+    </section>
+
+    <section>
+      <h2>CV</h2>
+      <a class="btn" href="assets/Modestas_Riabovas_CV.pdf" download>Download My CV</a>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
