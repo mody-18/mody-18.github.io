@@ -1,4 +1,4 @@
-document.getElementById("contact-form").addEventListener("submit", function (e) {
+document.getElementById('contact-form').addEventListener('submit', e => {
   e.preventDefault();
-  alert("Thanks for reaching out! (This is a static demo form.)");
+  alert('Thanks for reaching out! (Demo only)');
 });
