@@ -92,7 +92,7 @@ body {
   color: #212529;
 }
 
-.linkedin-button {
+.button {
   display: inline-block;
   margin-top: 1rem;
   background-color: #0077b5;
@@ -104,7 +104,7 @@ body {
   transition: background-color 0.3s;
 }
 
-.linkedin-button:hover {
+.button:hover {
   background-color: #005983;
 }
 
