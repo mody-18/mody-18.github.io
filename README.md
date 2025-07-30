@@ -31,7 +31,7 @@ This is a fully responsive personal portfolio built with modern web technologies
 
 ## 📸 Preview
 
-![Website Preview](https://raw.githubusercontent.com/mody-18/mody-18.github.io/main/images/preview.jpg)
+![Website Preview](https://raw.githubusercontent.com/mody-18/mody-18.github.io/main/images/portfolio1.png)
 
 ---
 
