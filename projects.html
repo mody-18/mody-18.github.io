@@ -36,6 +36,9 @@
       <button class="filter-btn" data-filter="uiux">UI/UX</button>
       <button class="filter-btn" data-filter="web">Web Design and Development</button>
       <button class="filter-btn" data-filter="backendDevelopment">Backend Development</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="nodejs">Node.js</button>
+      <button class="filter-btn" data-filter="expressjs">Express.js</button>
     </div>
   </section>
 
@@ -97,26 +100,151 @@
 
     <!-- Project 3 -->
 
-   <div class="project-box uiux web backendDevelopment">
-    <h2>My First Program - Import Turtle</h2>
-    
+   <div class="project-box python gamedev">
+  <h2>Turtle Race Game 🐢</h2>
+
+  <!-- Centered Image Wrapper -->
+  <div class="centered-image">
+    <img src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%201.png" width="45%" alt="Turtle Race Start Screenshot" />
+    <img src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%202.png" width="45%" alt="Turtle Race Progress Screenshot" />
+  </div>
+
+  <p class="project-tags">
+    <span>Python</span>
+    <span>Game Development</span>
+    <span>Beginner Project</span>
+  </p>
+
+  <p>
+    This was the very first Python program I ever built — a fun and visual <strong>turtle race simulation</strong> using Python's built-in <code>turtle</code> graphics and <code>random</code> libraries.
+  </p>
+
+  <p>
+    🎮 Multiple turtles race across the screen, each moving forward randomly.  
+    The first turtle to cross the finish line wins!
+  </p>
+
+  <h4>🚀 How It Works</h4>
+  <ul>
+    <li>Turtles are drawn on a GUI window using <code>turtle</code></li>
+    <li>Each turtle moves forward by a random number of pixels per iteration</li>
+    <li>The race continues until one turtle reaches the finish line</li>
+    <li>The winner is declared visually in the GUI</li>
+  </ul>
+
+  <h4>💡 What I Learned</h4>
+  <ul>
+    <li>Basic Python syntax and control structures</li>
+    <li>How to use <code>turtle</code> for GUI-based graphics</li>
+    <li>Looping logic and conditional statements</li>
+    <li>Integrating random behavior into a simple game</li>
+  </ul>
+
+  <p>
+    🔗 <strong>Project Repository:</strong>  
+    <a href="https://github.com/mody-18/Import-Turtle" target="_blank">github.com/mody-18/Import-Turtle</a>
+  </p>
+</div>
+
+
+  <!-- Project 4 -->
+
+  
+  <div class="project-box backendDevelopment">
+    <h2>E-Commerce Web Application</h2>
+
     <!-- Centered Image Wrapper -->
     <div class="centered-image">
-      <img src="images/turtle program 1.png" width="50%" height="50%" alt="R&Z Massage Website Image" />
-      <img src="images/turtle program 2.png" width="50%" height="50%" alt="R&Z Massage Website Image" />
+      <img src="images/eCommerce.png" width="50%" height="50%" alt="Spring Boot App Screenshot 1" />
     </div>
 
     <p class="project-tags">
       <span>Backend Development</span>
     </p>
-    
-    <p>My first program was a python file with the turtle library!</p>
-    
+
+    <p>
+      During the 2023 summer holidays, the transition period from Sixth Form to University, I decided to learn the programming language Java. I applied my newly acquired knowledge by building a Spring Boot application. 
+      <br><br>
+      Spring Boot (part of the broader Spring Framework) is used to create production-ready web applications quickly. It's commonly adopted by large enterprises such as Netflix due to its ability to minimize boilerplate code, making web development faster and more maintainable.
+    </p>
+
+    <p>With Java & Spring Boot, I was able to:</p>
     <ul>
-      <li>Learnt the basics of backend programming!</li>
+      <li>Allow users (customers) to register an account</li>
+      <li>Enable user login functionality</li>
+      <li>Implement password reset via email using a unique token in the URL</li>
+      <li>Store user data securely in a MySQL database</li>
+      <li>Hash passwords using BCrypt before storing them</li>
+      <li>Incorporate both JUnit and integration testing</li>
+      <li>Implement application-level logging</li>
+    </ul>
+
+    <p>
+      If I were to improve the application further, I would:
+    </p>
+    <ul>
+      <li>Implement session IDs and store them in a NoSQL in-memory DB like Redis</li>
+      <li>Enable users to update their profile details</li>
+      <li>Add functionality to logout and delete their account</li>
+      <li>Allow users to upload a profile image</li>
+    </ul>
+
+    <p>
+      I had so much fun learning these technologies — particularly JUnit and integration testing. Although I initially struggled with testing, I eventually overcame those challenges, and it became one of the most rewarding aspects of the entire experience.
+    </p>
+
+    <p>
+      🔗 <strong>Project Repository:</strong> <a href="https://github.com/mody-18/ecommerce-com" target="_blank">https://github.com/mody-18/ecommerce-com</a>
+    </p>
     
-    <p>14 little turtles would sprint to the finish line using the random library & the first to reach the finish line would be shown in the middle of the screen with the 'I WIN!' text.</p>
+
   </div>
+
+  <!-- Project 5 -->
+
+  <div class="project-box backendDevelopment nodejs expressjs">
+  <h2>Cuban Cigars Web Application</h2>
+
+  <!-- Centered Image Wrapper -->
+  <div class="centered-image">
+    <img src="images/cubanCigars1.png" width="45%" alt="Cuban Cigars Screenshot 1" />
+    <img src="images/cubanCigars2.png" width="45%" alt="Cuban Cigars Screenshot 1" />
+  </div>
+
+  <p class="project-tags">
+    <span>Backend Development</span>
+    <span>Node.js</span>
+    <span>Express.js</span>
+  </p>
+
+  <p>
+    During my spare time as a 1st year student at The University of Leicester, I self-taught JavaScript, followed by Node.js and Express.js. Once I had a good grasp of these technologies, I developed a full backend web application built around the theme of Cuban cigars.
+  </p>
+
+  <p>With Node.js & Express.js, I implemented the following features:</p>
+  <ul>
+    <li>Allow users (customers) to register an account</li>
+    <li>Login system with persistent sessions using <code>passport</code> module</li>
+    <li>Store user data in a MySQL database</li>
+    <li>Hash passwords using <code>bcryptjs</code> before storing</li>
+    <li>Incorporated JUnit-style testing using <code>supertest</code></li>
+    <li>Logging implemented using <code>winston</code></li>
+    <li>Account deletion functionality</li>
+    <li>Password change functionality</li>
+    <li>Secure logout functionality</li>
+  </ul>
+
+  <p>
+    The frontend of this web application was built in collaboration with <a href="https://github.com/AaronShinu" target="_blank"><strong>@AaronShinu</strong></a>
+  </p>
+
+  <p>
+    🔗 <strong>Project Repository:</strong> <a href="https://github.com/mody-18/cubanCigars-com" target="_blank">github.com/mody-18/cubanCigars-com</a>
+  </p>
+
+</div>
+
+
 
   <script src="js/projects.js"></script>
 
