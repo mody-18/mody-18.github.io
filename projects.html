@@ -1,252 +1,349 @@
 <!-- Modestas Riabovas 2025 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Modestas Riabovas - Projects</title>
-  <link rel="stylesheet" href="css/global.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  
-</head>
-<body style="background-image: url('images/background.jpg'); background-size: cover; background-position: center;">
-
-  <nav class="navbar">
-
-    <div class="logo">
-      <!-- <a href="index.html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modestas Riabovas - Projects</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+  </head>
+  <body
+    style="
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <nav class="navbar">
+      <div class="logo">
+        <!-- <a href="index.html">
         <img src="images/Modestas Riabovas Logo.jpeg" alt="Modestas Riabovas Logo" class="logo-img small" />
       </a> -->
-
-    </div>
-     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <!-- <li><a href="Business.html">Business</a></li>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <!-- <li><a href="Business.html">Business</a></li>
       <li><a href="ContactMe.html">Contact Me</a></li> -->
-    </ul>
+      </ul>
+    </nav>
 
-  </nav>
+    <!-- Filter Box -->
+    <section class="section filter-box">
+      <h3 class="filter-heading">Browse Projects</h3>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+        <button class="filter-btn" data-filter="web">
+          Web Design and Development
+        </button>
+        <button class="filter-btn" data-filter="backendDevelopment">
+          Backend Development
+        </button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="nodejs">Node.js</button>
+        <button class="filter-btn" data-filter="expressjs">Express.js</button>
+      </div>
+    </section>
 
-  <!-- Filter Box -->
-  <section class="section filter-box">
-    <h3 class="filter-heading">Browse Projects</h3>
-    <div class="filter-buttons">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="uiux">UI/UX</button>
-      <button class="filter-btn" data-filter="web">Web Design and Development</button>
-      <button class="filter-btn" data-filter="backendDevelopment">Backend Development</button>
-      <button class="filter-btn" data-filter="python">Python</button>
-      <button class="filter-btn" data-filter="nodejs">Node.js</button>
-      <button class="filter-btn" data-filter="expressjs">Express.js</button>
+    <!-- Projects -->
+    <!-- Project 1 -->
+    <div class="project-box uiux web backendDevelopment">
+      <h2>My Portfolio – Personal Website</h2>
+
+      <!-- Centered Image Wrapper -->
+      <div class="centered-image">
+        <img
+          src="images/portfolio1.png"
+          alt="Modestas Riabovas Portfolio Website Image"
+        />
+      </div>
+
+      <p class="project-tags">
+        <span>UI/UX</span>
+        <span>Web Design and Development</span>
+        <span>Backend Development</span>
+      </p>
+
+      <p>
+        My personal website was built completely from scratch using HTML, CSS,
+        and JavaScript – no templates or frameworks. It serves as an evolving
+        digital portfolio showcasing my academic journey, technical projects,
+        and creative work from GCSEs to university.
+      </p>
+
+      <ul>
+        <li>
+          Designed a clean, modern UI/UX to reflect my identity as a developer
+          and designer
+        </li>
+        <li>
+          Implemented category-based filtering system with interactive project
+          views
+        </li>
+        <li>
+          Developed a responsive layout for accessibility across all devices
+        </li>
+        <li>
+          Continuously updated to reflect latest projects, achievements, and
+          experience
+        </li>
+      </ul>
+
+      <p>
+        This site is not just a portfolio – it’s a creative canvas that combines
+        form, function, and storytelling to represent my growth as a digital
+        designer and developer.
+      </p>
     </div>
-  </section>
 
-  <!-- Projects -->
-   <!-- Project 1 -->
-  <div class="project-box uiux web backendDevelopment">
-    <h2>My Portfolio – Personal Website</h2>
-    
-    <!-- Centered Image Wrapper -->
-    <div class="centered-image">
-      <img src="images/portfolio1.png" alt="Modestas Riabovas Portfolio Website Image" />
+    <!-- Project 2 -->
+
+    <div class="project-box uiux web">
+      <h2>R&Z Massage – Business Website 🌿</h2>
+
+      <!-- Centered Image Wrapper -->
+      <div class="centered-image">
+        <img src="images/rzmassage.png" alt="R&Z Massage Website Screenshot" />
+      </div>
+
+      <p class="project-tags">
+        <span>UI/UX</span>
+        <span>Web Development</span>
+        <span>Integration</span>
+      </p>
+
+      <p>
+        I designed and developed a website for a local massage therapist
+        business in King’s Lynn. The goal was to create a
+        <strong>calm, modern, and functional online presence</strong> where
+        clients can learn about services and easily book appointments.
+      </p>
+
+      <p>
+        ✨ The site reflects the therapist’s gentle, client-focused approach
+        while improving accessibility and professionalism.
+      </p>
+
+      <h4>🚀 Features</h4>
+      <ul>
+        <li>Clean, minimal UI aligned with the client’s brand</li>
+        <li>Responsive layout that adapts across all devices</li>
+        <li>Integrated online booking system via <code>Fresha</code></li>
+        <li>Deployed on <code>Netlify</code> for speed and reliability</li>
+        <li>SEO-friendly structure with Open Graph tags for social sharing</li>
+      </ul>
+
+      <h4>💡 What I Learned</h4>
+      <ul>
+        <li>Client collaboration using an agile, feedback-driven process</li>
+        <li>Working with booking integrations like <code>Fresha</code></li>
+        <li>Deploying production-ready websites with <code>Netlify</code></li>
+        <li>Importance of design choices in shaping brand perception</li>
+      </ul>
+
+      <p>
+        🔗 <strong>Live Site:</strong>
+        <a href="https://rzmassage.com" target="_blank">rzmassage.com</a>
+      </p>
     </div>
-
-    <p class="project-tags">
-      <span>UI/UX</span>
-      <span>Web Design and Development</span>
-      <span>Backend Development</span>
-    </p>
-    
-    <p>My personal website was built completely from scratch using HTML, CSS, and JavaScript – no templates or frameworks. It serves as an evolving digital portfolio showcasing my academic journey, technical projects, and creative work from GCSEs to university.</p>
-    
-    <ul>
-      <li>Designed a clean, modern UI/UX to reflect my identity as a developer and designer</li>
-      <li>Implemented category-based filtering system with interactive project views</li>
-      <li>Developed a responsive layout for accessibility across all devices</li>
-      <li>Continuously updated to reflect latest projects, achievements, and experience</li>
-    </ul>
-    
-    <p>This site is not just a portfolio – it’s a creative canvas that combines form, function, and storytelling to represent my growth as a digital designer and developer.</p>
-  </div>
-
-  <!-- Project 2 -->
-
-   <div class="project-box uiux web backendDevelopment">
-    <h2>Massage Therapy Website - Design & Development</h2>
-    
-    <!-- Centered Image Wrapper -->
-    <div class="centered-image">
-      <img sr`c="images/.png" alt="R&Z Massage Website Image" />
-    </div>
-
-    <p class="project-tags">
-      <span>UI/UX</span>
-      <span>Web Design and Development</span>
-      <span>Backend Development</span>
-    </p>
-    
-    <p>Built a website for a local massage therapist business</p>
-    
-    <ul>
-      <li>Designed a clean, modern UI/UX</li>
-      <li>Developed a responsive layout for accessibility across all devices</li>
-      <li>Continuously worked with the client in a Agile Development style</li>
-      <li>Incorporated an online booking system through Fresha</li>
-    </ul>
-    
-    <p>This site has boosted their online presence & led to an increase in their sales!</p>
-  </div>
 
     <!-- Project 3 -->
 
-   <div class="project-box python gamedev">
-  <h2>Turtle Race Game 🐢</h2>
+    <div class="project-box python gamedev">
+      <h2>Turtle Race Game 🐢</h2>
 
-  <!-- Centered Image Wrapper -->
-  <div class="centered-image">
-    <img src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%201.png" width="45%" alt="Turtle Race Start Screenshot" />
-    <img src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%202.png" width="45%" alt="Turtle Race Progress Screenshot" />
-  </div>
+      <!-- Centered Image Wrapper -->
+      <div class="centered-image">
+        <img
+          src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%201.png"
+          width="45%"
+          alt="Turtle Race Start Screenshot"
+        />
+        <img
+          src="https://raw.githubusercontent.com/mody-18/Import-Turtle/main/images/turtle%20program%202.png"
+          width="45%"
+          alt="Turtle Race Progress Screenshot"
+        />
+      </div>
 
-  <p class="project-tags">
-    <span>Python</span>
-    <span>Game Development</span>
-    <span>Beginner Project</span>
-  </p>
+      <p class="project-tags">
+        <span>Python</span>
+        <span>Game Development</span>
+        <span>Beginner Project</span>
+      </p>
 
-  <p>
-    This was the very first Python program I ever built — a fun and visual <strong>turtle race simulation</strong> using Python's built-in <code>turtle</code> graphics and <code>random</code> libraries.
-  </p>
+      <p>
+        This was the very first Python program I ever built — a fun and visual
+        <strong>turtle race simulation</strong> using Python's built-in
+        <code>turtle</code> graphics and <code>random</code> libraries.
+      </p>
 
-  <p>
-    🎮 Multiple turtles race across the screen, each moving forward randomly.  
-    The first turtle to cross the finish line wins!
-  </p>
+      <p>
+        🎮 Multiple turtles race across the screen, each moving forward
+        randomly. The first turtle to cross the finish line wins!
+      </p>
 
-  <h4>🚀 How It Works</h4>
-  <ul>
-    <li>Turtles are drawn on a GUI window using <code>turtle</code></li>
-    <li>Each turtle moves forward by a random number of pixels per iteration</li>
-    <li>The race continues until one turtle reaches the finish line</li>
-    <li>The winner is declared visually in the GUI</li>
-  </ul>
+      <h4>🚀 How It Works</h4>
+      <ul>
+        <li>Turtles are drawn on a GUI window using <code>turtle</code></li>
+        <li>
+          Each turtle moves forward by a random number of pixels per iteration
+        </li>
+        <li>The race continues until one turtle reaches the finish line</li>
+        <li>The winner is declared visually in the GUI</li>
+      </ul>
 
-  <h4>💡 What I Learned</h4>
-  <ul>
-    <li>Basic Python syntax and control structures</li>
-    <li>How to use <code>turtle</code> for GUI-based graphics</li>
-    <li>Looping logic and conditional statements</li>
-    <li>Integrating random behavior into a simple game</li>
-  </ul>
+      <h4>💡 What I Learned</h4>
+      <ul>
+        <li>Basic Python syntax and control structures</li>
+        <li>How to use <code>turtle</code> for GUI-based graphics</li>
+        <li>Looping logic and conditional statements</li>
+        <li>Integrating random behavior into a simple game</li>
+      </ul>
 
-  <p>
-    🔗 <strong>Project Repository:</strong>  
-    <a href="https://github.com/mody-18/Import-Turtle" target="_blank">github.com/mody-18/Import-Turtle</a>
-  </p>
-</div>
-
-
-  <!-- Project 4 -->
-
-  
-  <div class="project-box backendDevelopment">
-    <h2>E-Commerce Web Application</h2>
-
-    <!-- Centered Image Wrapper -->
-    <div class="centered-image">
-      <img src="images/eCommerce.png" width="50%" height="50%" alt="Spring Boot App Screenshot 1" />
+      <p>
+        🔗 <strong>Project Repository:</strong>
+        <a href="https://github.com/mody-18/Import-Turtle" target="_blank"
+          >github.com/mody-18/Import-Turtle</a
+        >
+      </p>
     </div>
 
-    <p class="project-tags">
-      <span>Backend Development</span>
-    </p>
+    <!-- Project 4 -->
 
-    <p>
-      During the 2023 summer holidays, the transition period from Sixth Form to University, I decided to learn the programming language Java. I applied my newly acquired knowledge by building a Spring Boot application. 
-      <br><br>
-      Spring Boot (part of the broader Spring Framework) is used to create production-ready web applications quickly. It's commonly adopted by large enterprises such as Netflix due to its ability to minimize boilerplate code, making web development faster and more maintainable.
-    </p>
+    <div class="project-box backendDevelopment">
+      <h2>E-Commerce Web Application</h2>
 
-    <p>With Java & Spring Boot, I was able to:</p>
-    <ul>
-      <li>Allow users (customers) to register an account</li>
-      <li>Enable user login functionality</li>
-      <li>Implement password reset via email using a unique token in the URL</li>
-      <li>Store user data securely in a MySQL database</li>
-      <li>Hash passwords using BCrypt before storing them</li>
-      <li>Incorporate both JUnit and integration testing</li>
-      <li>Implement application-level logging</li>
-    </ul>
+      <!-- Centered Image Wrapper -->
+      <div class="centered-image">
+        <img
+          src="images/eCommerce.png"
+          width="50%"
+          height="50%"
+          alt="Spring Boot App Screenshot 1"
+        />
+      </div>
 
-    <p>
-      If I were to improve the application further, I would:
-    </p>
-    <ul>
-      <li>Implement session IDs and store them in a NoSQL in-memory DB like Redis</li>
-      <li>Enable users to update their profile details</li>
-      <li>Add functionality to logout and delete their account</li>
-      <li>Allow users to upload a profile image</li>
-    </ul>
+      <p class="project-tags">
+        <span>Backend Development</span>
+      </p>
 
-    <p>
-      I had so much fun learning these technologies — particularly JUnit and integration testing. Although I initially struggled with testing, I eventually overcame those challenges, and it became one of the most rewarding aspects of the entire experience.
-    </p>
+      <p>
+        During the 2023 summer holidays, the transition period from Sixth Form
+        to University, I decided to learn the programming language Java. I
+        applied my newly acquired knowledge by building a Spring Boot
+        application.
+        <br /><br />
+        Spring Boot (part of the broader Spring Framework) is used to create
+        production-ready web applications quickly. It's commonly adopted by
+        large enterprises such as Netflix due to its ability to minimize
+        boilerplate code, making web development faster and more maintainable.
+      </p>
 
-    <p>
-      🔗 <strong>Project Repository:</strong> <a href="https://github.com/mody-18/ecommerce-com" target="_blank">https://github.com/mody-18/ecommerce-com</a>
-    </p>
-    
+      <p>With Java & Spring Boot, I was able to:</p>
+      <ul>
+        <li>Allow users (customers) to register an account</li>
+        <li>Enable user login functionality</li>
+        <li>
+          Implement password reset via email using a unique token in the URL
+        </li>
+        <li>Store user data securely in a MySQL database</li>
+        <li>Hash passwords using BCrypt before storing them</li>
+        <li>Incorporate both JUnit and integration testing</li>
+        <li>Implement application-level logging</li>
+      </ul>
 
-  </div>
+      <p>If I were to improve the application further, I would:</p>
+      <ul>
+        <li>
+          Implement session IDs and store them in a NoSQL in-memory DB like
+          Redis
+        </li>
+        <li>Enable users to update their profile details</li>
+        <li>Add functionality to logout and delete their account</li>
+        <li>Allow users to upload a profile image</li>
+      </ul>
 
-  <!-- Project 5 -->
+      <p>
+        I had so much fun learning these technologies — particularly JUnit and
+        integration testing. Although I initially struggled with testing, I
+        eventually overcame those challenges, and it became one of the most
+        rewarding aspects of the entire experience.
+      </p>
 
-  <div class="project-box backendDevelopment nodejs expressjs">
-  <h2>Cuban Cigars Web Application</h2>
+      <p>
+        🔗 <strong>Project Repository:</strong>
+        <a href="https://github.com/mody-18/ecommerce-com" target="_blank"
+          >https://github.com/mody-18/ecommerce-com</a
+        >
+      </p>
+    </div>
 
-  <!-- Centered Image Wrapper -->
-  <div class="centered-image">
-    <img src="images/cubanCigars1.png" width="45%" alt="Cuban Cigars Screenshot 1" />
-    <img src="images/cubanCigars2.png" width="45%" alt="Cuban Cigars Screenshot 1" />
-  </div>
+    <!-- Project 5 -->
 
-  <p class="project-tags">
-    <span>Backend Development</span>
-    <span>Node.js</span>
-    <span>Express.js</span>
-  </p>
+    <div class="project-box backendDevelopment nodejs expressjs">
+      <h2>Cuban Cigars Web Application</h2>
 
-  <p>
-    During my spare time as a 1st year student at The University of Leicester, I self-taught JavaScript, followed by Node.js and Express.js. Once I had a good grasp of these technologies, I developed a full backend web application built around the theme of Cuban cigars.
-  </p>
+      <!-- Centered Image Wrapper -->
+      <div class="centered-image">
+        <img
+          src="images/cubanCigars1.png"
+          width="45%"
+          alt="Cuban Cigars Screenshot 1"
+        />
+        <img
+          src="images/cubanCigars2.png"
+          width="45%"
+          alt="Cuban Cigars Screenshot 1"
+        />
+      </div>
 
-  <p>With Node.js & Express.js, I implemented the following features:</p>
-  <ul>
-    <li>Allow users (customers) to register an account</li>
-    <li>Login system with persistent sessions using <code>passport</code> module</li>
-    <li>Store user data in a MySQL database</li>
-    <li>Hash passwords using <code>bcryptjs</code> before storing</li>
-    <li>Incorporated JUnit-style testing using <code>supertest</code></li>
-    <li>Logging implemented using <code>winston</code></li>
-    <li>Account deletion functionality</li>
-    <li>Password change functionality</li>
-    <li>Secure logout functionality</li>
-  </ul>
+      <p class="project-tags">
+        <span>Backend Development</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+      </p>
 
-  <p>
-    The frontend of this web application was built in collaboration with <a href="https://github.com/AaronShinu" target="_blank"><strong>@AaronShinu</strong></a>
-  </p>
+      <p>
+        During my spare time as a 1st year student at The University of
+        Leicester, I self-taught JavaScript, followed by Node.js and Express.js.
+        Once I had a good grasp of these technologies, I developed a full
+        backend web application built around the theme of Cuban cigars.
+      </p>
 
-  <p>
-    🔗 <strong>Project Repository:</strong> <a href="https://github.com/mody-18/cubanCigars-com" target="_blank">github.com/mody-18/cubanCigars-com</a>
-  </p>
+      <p>With Node.js & Express.js, I implemented the following features:</p>
+      <ul>
+        <li>Allow users (customers) to register an account</li>
+        <li>
+          Login system with persistent sessions using
+          <code>passport</code> module
+        </li>
+        <li>Store user data in a MySQL database</li>
+        <li>Hash passwords using <code>bcryptjs</code> before storing</li>
+        <li>Incorporated JUnit-style testing using <code>supertest</code></li>
+        <li>Logging implemented using <code>winston</code></li>
+        <li>Account deletion functionality</li>
+        <li>Password change functionality</li>
+        <li>Secure logout functionality</li>
+      </ul>
 
-</div>
+      <p>
+        The frontend of this web application was built in collaboration with
+        <a href="https://github.com/AaronShinu" target="_blank"
+          ><strong>@AaronShinu</strong></a
+        >
+      </p>
 
+      <p>
+        🔗 <strong>Project Repository:</strong>
+        <a href="https://github.com/mody-18/cubanCigars-com" target="_blank"
+          >github.com/mody-18/cubanCigars-com</a
+        >
+      </p>
+    </div>
 
-
-  <script src="js/projects.js"></script>
-
-</body>
+    <script src="js/projects.js"></script>
+  </body>
 </html>
